@@ -1,0 +1,151 @@
+:root {
+  --brand-color: #212121;
+  --active-color: #2196f3;
+  --description-color: #757575;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+  color: var(--brand-color);
+}
+.link {
+  color: #212121;
+  border: none;
+}
+.button {
+  color: var(--brand-color);
+  border: none;
+  background-color: F5F4FA;
+  cursor: pointer;
+}
+.link-addres {
+  color: #757575;
+}
+.link-addres-footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.46;
+  letter-spacing: 3%;
+}
+.link-maps-footer {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.46;
+  letter-spacing: 3%;
+}
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  border: none;
+}
+
+.link:hover,
+.link:focus,
+.link-addres:hover,
+.link-addres:focus,
+.link-addres-footer:hover,
+.link-addres-footer:focus,
+.link-maps-footer:hover,
+.link-maps-footer:focus {
+  color: #2196f3;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.logo-first {
+  color: var(--active-color);
+}
+.logo-secondary {
+  color: #000000;
+}
+.logo-three {
+  color: #ffffff;
+}
+.logo {
+  word-spacing: -5px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+
+  letter-spacing: 3%;
+}
+.description {
+  color: var(--description-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.46;
+}
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--brand-color);
+
+  letter-spacing: 2%;
+}
+.contact-nav {
+  font-weight: 500;
+  font-size: 14px;
+
+  letter-spacing: 2%;
+}
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.16;
+  letter-spacing: 6%;
+  text-align: center;
+  color: #ffffff;
+}
+.order {
+  font-weight: 700;
+
+  letter-spacing: 6%;
+  color: #ffffff;
+  background-color: var(--active-color);
+}
+.title-background {
+  background-color: #2f303a;
+}
+.definition {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 3%;
+}
+.what-we-do,
+.our-team {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 3%;
+}
+.team {
+  background-color: #f5f4fa;
+}
+.member-of-team {
+  font-weight: 500;
+  letter-spacing: 3%;
+}
+.description-team {
+  color: var(--description-color);
+  letter-spacing: 3%;
+}
+footer {
+  background-color: #2f303a;
+}
+address {
+  font-style: normal;
+}
+.definition-project {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.71;
+  letter-spacing: 6%;
+}
+.description-project {
+  color: var(--description-color);
+  line-height: 1.6;
+}
