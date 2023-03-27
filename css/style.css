@@ -11,27 +11,33 @@ body {
 .link {
   color: #212121;
   border: none;
+  line-height: 1;
 }
 .button {
   color: var(--brand-color);
   border: none;
-  background-color: F5F4FA;
+  background-color: #f5f4fa;
   cursor: pointer;
+  font-weight: 500;
+  line-height: 1.39;
+  letter-spacing: 0.3px;
+  font-size: 16px;
 }
 .link-addres {
   color: #757575;
+  line-height: 1;
 }
 .link-addres-footer {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.46;
-  letter-spacing: 3%;
+  letter-spacing: 0.3px;
 }
 .link-maps-footer {
   color: #ffffff;
   font-size: 14px;
   line-height: 1.46;
-  letter-spacing: 3%;
+  letter-spacing: 0.3px;
 }
 .button:hover,
 .button:focus {
@@ -58,24 +64,26 @@ ul {
 }
 .logo-first {
   color: var(--active-color);
+  line-height: 1;
 }
 .logo-secondary {
   color: #000000;
+  line-height: 1;
 }
 .logo-three {
   color: #ffffff;
+  line-height: 1;
 }
 .logo {
   word-spacing: -5px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-
-  letter-spacing: 3%;
+  letter-spacing: 0.3px;
+  line-height: 1;
 }
 .description {
   color: var(--description-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.46;
 }
@@ -83,28 +91,29 @@ ul {
   font-weight: 500;
   font-size: 14px;
   color: var(--brand-color);
-
-  letter-spacing: 2%;
+  letter-spacing: 0.2px;
+  line-height: 1;
 }
 .contact-nav {
   font-weight: 500;
   font-size: 14px;
-
-  letter-spacing: 2%;
+  letter-spacing: 0.2px;
+  line-height: 1;
 }
 .title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.16;
-  letter-spacing: 6%;
+  letter-spacing: 0.6px;
   text-align: center;
   color: #ffffff;
 }
-.order {
+.button-order {
   font-weight: 700;
-
-  letter-spacing: 6%;
+  font-size: 16px;
+  letter-spacing: 0.6px;
   color: #ffffff;
+  line-height: 1.6;
   background-color: var(--active-color);
 }
 .title-background {
@@ -113,25 +122,29 @@ ul {
 .definition {
   font-weight: 700;
   font-size: 14px;
-  letter-spacing: 3%;
+  letter-spacing: 0.3px;
+  line-height: 1;
 }
 .what-we-do,
 .our-team {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
-  letter-spacing: 3%;
+  letter-spacing: 0.3px;
+  line-height: 1;
 }
 .team {
   background-color: #f5f4fa;
 }
 .member-of-team {
   font-weight: 500;
-  letter-spacing: 3%;
+  letter-spacing: 0.3px;
+  line-height: 1;
 }
 .description-team {
   color: var(--description-color);
-  letter-spacing: 3%;
+  letter-spacing: 0.3px;
+  line-height: 1;
 }
 footer {
   background-color: #2f303a;
@@ -143,7 +156,7 @@ address {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.71;
-  letter-spacing: 6%;
+  letter-spacing: 0.6px;
 }
 .description-project {
   color: var(--description-color);
